@@ -45,8 +45,8 @@ jQuery(document).ready(function () {
     mainSlider.owlCarousel({
       center: true,
       items: 1,
-      loop: false,
-      dots: false,
+      loop: true,
+      dots: true,
       margin: 80,
       autoplay: true,
       animateOut: "slideOutLeft",

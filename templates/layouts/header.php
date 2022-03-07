@@ -43,7 +43,7 @@
                 <nav class="navbar navbar-expand-lg">
                     <div class="logo">
                         <a class="navbar-brand logo" href="javascript:void(0)">
-                            <img src="<?= $assets ?>/images/logo.png" alt="">
+                            <img src="<?= $assets ?>/images/opay--logo.png" alt="">
                         </a>
                     </div>
                     <div class="navbar-toggler active">
@@ -91,7 +91,7 @@
         <div class="responsive-header">
             <div class="responsive-bar d-flex justify-content-between">
                 <a class="navbar-brand" href="javascript:void(0)">
-                    <img src="<?= $assets ?>/images/logo.png" alt="">
+                    <img src="<?= $assets ?>/images/opay-logo.png" alt="logo">
                 </a>
                 <a href="javascript:void(0)" class="menu-btn">
 

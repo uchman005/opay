@@ -1,7 +1,7 @@
 
         <!-- Breadcrumbs -->
         <section class="position-relative top-banner bg-gray">
-            <div class="bg-fixed" style="background-image: url('assets/images/mazaa-pattern.png');"></div>
+            <div class="bg-fixed" style="background-image: url('<?= $assets ?>/images/mazaa-pattern.png');"></div>
             <div class="top-banner-content text-center">
                 <div class="baner-name">
                     <h2 class="fs-50 text-uppercase">blog grids</h2>
@@ -24,7 +24,7 @@
                             <article>
                                 <div class="blog-item">
                                     <figure class="mb-0 position-relative">
-                                        <img src="assets/images/resources/news1.jpg" alt="">
+                                        <img src="<?= $assets ?>/images/resources/news1.jpg" alt="">
                                         <div class="text-center">
                                             <a href="blog-detail.html" title="" class="theme-btn-secondary">learn More<span></span></a>
                                         </div>
@@ -47,9 +47,9 @@
                             <article>
                                 <div class="blog-item">
                                     <figure class="mb-0 position-relative">
-                                        <img src="assets/images/resources/news2.jpg" alt="">
+                                        <img src="<?= $assets ?>/images/resources/news2.jpg" alt="">
                                         <div class="text-center">
-                                            <a href="blog-detail.html" title="" class="theme-btn-secondary">learn More<span></span></a>
+                                            <a href="./blog/1" title="" class="theme-btn-secondary">learn More<span></span></a>
                                         </div>
                                     </figure>
                                     <div class="blog-desc mx-3 position-relative">
@@ -70,7 +70,7 @@
                             <article>
                                 <div class="blog-item">
                                     <figure class="mb-0 position-relative">
-                                        <img src="assets/images/resources/news3.jpg" alt="">
+                                        <img src="<?= $assets ?>/images/resources/news3.jpg" alt="">
                                         <div class="text-center">
                                             <a href="blog-detail.html" title="" class="theme-btn-secondary">learn More<span></span></a>
                                         </div>
@@ -95,7 +95,7 @@
                             <article>
                                 <div class="blog-item">
                                     <figure class="mb-0 position-relative">
-                                        <img src="assets/images/resources/news4.jpg" alt="">
+                                        <img src="<?= $assets ?>/images/resources/news4.jpg" alt="">
                                         <div class="text-center">
                                             <a href="blog-detail.html" title="" class="theme-btn-secondary">learn More<span></span></a>
                                         </div>
@@ -118,7 +118,7 @@
                             <article>
                                 <div class="blog-item">
                                     <figure class="mb-0 position-relative">
-                                        <img src="assets/images/resources/news5.jpg" alt="">
+                                        <img src="<?= $assets ?>/images/resources/news5.jpg" alt="">
                                         <div class="text-center">
                                             <a href="blog-detail.html" title="" class="theme-btn-secondary">learn More<span></span></a>
                                         </div>
@@ -141,7 +141,7 @@
                             <article>
                                 <div class="blog-item">
                                     <figure class="mb-0 position-relative">
-                                        <img src="assets/images/resources/news6.jpg" alt="">
+                                        <img src="<?= $assets ?>/images/resources/news6.jpg" alt="">
                                         <div class="text-center">
                                             <a href="blog-detail.html" title="" class="theme-btn-secondary">learn More<span></span></a>
                                         </div>
