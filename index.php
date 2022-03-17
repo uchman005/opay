@@ -5,7 +5,7 @@ define('DOT', '.');
 require_once DOT . "/bootstrap.php";
 
 //Home page//
-$Route->add('/opay/', function () {
+$Route->add('/', function () {
 
     $Template = new Apps\Template;
     $Template->addheader("layouts.header");
@@ -17,7 +17,7 @@ $Route->add('/opay/', function () {
 //Home page//
 
 //Contact
-$Route->add('/opay/contact', function () {
+$Route->add('/contact', function () {
 
     $Template = new Apps\Template;
     $Template->addheader("layouts.header");
@@ -32,7 +32,7 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 require 'vendor/autoload.php';
-$Route->add('/opay/contact', function () {
+$Route->add('/contact', function () {
 
     $Template = new Apps\Template;
     $Core = new Apps\Core;
@@ -41,39 +41,38 @@ $Route->add('/opay/contact', function () {
     $name = $Data->name;
     $email = $Data->email;
     $phone = $Data->phone;
+    $message = $Data->message . "\n";
     $mail = new PHPMailer(true);
     try {
         $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
         $mail->isSMTP();                                            //Send using SMTP
-        $mail->Host       = 'mail.diamondconceptpaygam.com'; // port 587                    //Set the SMTP server to send through
+        $mail->Host       = mail_server;                    //Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-        $mail->Username   = 'admin@diamondconceptpaygam.com';                     //SMTP username
-        $mail->Password   = 'chidera';
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;             //Enable implicit TLS encryption
-        $mail->Port       = 587;
+        $mail->Username   = mailer;                     //SMTP username
+        $mail->Password   = mail_pass;
+        $mail->SMTPSecure = protocol;             //Enable implicit TLS encryption
+        $mail->Port       = mail_port;
 
-        $mail->setFrom('admin@diamondconceptpaygam.com', 'Mailer');
-        $mail->addAddress('admin@diamondconceptpaygam.com', 'Joe User');     //Add a recipient
+        $mail->setFrom(mail_from, 'Web site');
+        $mail->addAddress('diamondconceptpaygam@gmail.com');     //Add a recipient
         $mail->addAddress('obiefunamarcel@gmail.com');               //Name is optional
-        $mail->addReplyTo('admin@diamondconceptpaygam.com', 'Information');
-        $mail->addCC('cc@example.com');
-        $mail->addBCC('bcc@example.com');
+        $mail->addReplyTo($email, 'Information');
 
         $mail->isHTML(true);                                  //Set email format to HTML
-        $mail->Subject = $name;
-        $mail->Body    = 'This is the HTML message body <b>in bold!</b>' . $phone;
-        $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+        $mail->Subject = "Enquiry from Website";
+        $mail->Body    = $message. "From: ".$name. "\n Phone: " . $phone;
+        $mail->AltBody = $message. " From: ".$name. "\n Phone: " . $phone;
 
-        $sent = $mail->send();
-        $Template->setError("Message sent", "success", "/opay/contact");
-        $Template->redirect("/opay/contact");
+        $mail->send();
+        $Template->setError("Message sent", "success", "/contact");
+        $Template->redirect("/contact");
     } catch (Exception $e) {
-        $Template->setError("Message not sent : {$mail->ErrorInfo}", "warning", "/opay/contact");
-        $Template->redirect("/opay/contact");
+        $Template->setError("Message not sent : {$mail->ErrorInfo}", "warning", "/contact");
+        $Template->redirect("/contact");
     }
 }, 'POST');
 //blog
-$Route->add('/opay/blog', function () {
+$Route->add('/blog', function () {
 
     $Template = new Apps\Template;
     $Template->addheader("layouts.header");
@@ -83,13 +82,13 @@ $Route->add('/opay/blog', function () {
     $Template->render("blog");
 }, 'GET');
 
-$Route->add('/opay/blog/{id}', function ($id) {
+$Route->add('/blog/{id}', function ($id) {
 
     $Template = new Apps\Template;
     $Template->addheader("layouts.header");
     $Template->addfooter("layouts.footer");
     $Template->assign("title", "Opay Home");
-
+    $Template->assign("id", $id);
     $Template->render("blog-single");
 }, 'GET');
 

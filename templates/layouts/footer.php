@@ -6,13 +6,12 @@
                <div class="col-lg-4 col-md-6">
                    <div class="widget abt-us-widget">
                        <h4 class="widget-title text-white h4 mb-35 font-weight-bold">About Us</h4>
-                       <p class="fs-18 text-white mb-0">Lorem ipsum dolor sit amet, consectet adipiscing elit,
-                           sed do eiusmod tempor cididunt Lorem ipsum dolor sit amet, nempor in cididunt.</p>
+                       <p class="fs-18 text-white mb-0">
+                           We are a POS distribution and gaming merchant, contact us for tips to starting your POS or gaming business.
+                       </p>
                        <div class="folow-us flex-row pt-25">
                            <a class="text-center d-inline-block text-white rounded-circle" href="javascript:void(0)" title=""><i class="fab fa-facebook-f"></i></a>
-                           <a class="text-center d-inline-block text-white rounded-circle" href="javascript:void(0)" title=""><i class="fab fa-google-plus-g"></i></a>
                            <a class="text-center d-inline-block text-white rounded-circle" href="javascript:void(0)" title=""><i class="fab fa-twitter"></i></a>
-                           <a class="text-center d-inline-block text-white rounded-circle" href="javascript:void(0)" title=""><i class="fab fa-linkedin-in"></i></a>
                        </div>
                    </div>
                </div>

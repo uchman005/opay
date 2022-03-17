@@ -43,7 +43,7 @@
                 <nav class="navbar navbar-expand-lg">
                     <div class="logo">
                         <a class="navbar-brand logo" href="javascript:void(0)">
-                            <img src="<?= $assets ?>/images/opay--logo.png" alt="">
+                            <img src="<?= $assets ?>/images/opay-logo.png" alt="">
                         </a>
                     </div>
                     <div class="navbar-toggler active">

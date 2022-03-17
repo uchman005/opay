@@ -1,167 +1,140 @@
+<!-- Breadcrumbs -->
+<section class="position-relative top-banner bg-gray">
+    <div class="bg-fixed" style="background-image: url('<?= $assets ?>/images/mazaa-pattern.png');"></div>
+    <div class="top-banner-content text-center">
+        <div class="baner-name">
+            <h2 class="fs-50 text-uppercase">blog</h2>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center p-0 mb-0">
+                    <li class="breadcrumb-item text-gray fs-18 fm-arimo"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active text-theme fs-18 fm-arimo"><a href="javascript:void(0)">Blog</a></li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</section>
 
-        <!-- Breadcrumbs -->
-        <section class="position-relative top-banner bg-gray">
-            <div class="bg-fixed" style="background-image: url('<?= $assets ?>/images/mazaa-pattern.png');"></div>
-            <div class="top-banner-content text-center">
-                <div class="baner-name">
-                    <h2 class="fs-50 text-uppercase">blog grids</h2>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb justify-content-center p-0 mb-0">
-                            <li class="breadcrumb-item text-gray fs-18 fm-arimo"><a href="index.html">Home</a></li>
-                            <li class="breadcrumb-item active text-theme fs-18 fm-arimo"><a href="javascript:void(0)">Blog Grids</a></li>
-                        </ol>
-                    </nav>
+
+<main>
+    <div class="sec-space">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article>
+                        <div class="blog-item">
+                            <figure class="mb-0 position-relative">
+                                <img src="<?= $assets ?>/images/resources/android-pos.webp" alt="">
+                                <div class="text-center">
+                                    <a href="./blog/1" title="" class="theme-btn-secondary">learn More<span></span></a>
+                                </div>
+                            </figure>
+                            <div class="blog-desc mx-3 position-relative">
+                                <div class="blog-txt bg-white">
+                                    <h3 class="fs-22 mt-2"><a href="./blog/1" title="">OPAY transaction charges</a></h3>
+                                    <p class="mb-0">OPAY has a unique way of calculating transaction charges which is amazing for the vendor</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article>
+                        <div class="blog-item">
+                            <figure class="mb-0 position-relative">
+                                <img src="<?= $assets ?>/images/resources/dotpay.webp" alt="">
+                                <div class="text-center">
+                                    <a href="./blog/2" title="" class="theme-btn-secondary">learn More<span></span></a>
+                                </div>
+                            </figure>
+                            <div class="blog-desc mx-3 position-relative">
+                                <div class="blog-txt bg-white">
+                                    <h3 class="fs-22 mt-2"><a href="./blog/2" title="">How to become Dotpay agent and Get pos Easily</a></h3>
+                                    <p class="mb-0">Ever wondered how to start-up your own POS business or how to Add a POS machine easily to your excisting business</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article>
+                        <div class="blog-item">
+                            <figure class="mb-0 position-relative">
+                                <img src="<?= $assets ?>/images/resources/fake-money.webp" alt="">
+                                <div class="text-center">
+                                    <a href="./blog/3" title="" class="theme-btn-secondary">learn More<span></span></a>
+                                </div>
+                            </figure>
+                            <div class="blog-desc mx-3 position-relative">
+                                <div class="blog-txt bg-white">
+                                    <h3 class="fs-22 mt-2"><a href="./blog/3" title="">Five ways to detect fake naira note</a></h3>
+                                    <p class="mb-0">Worried about recieving fake notes over the counter? Apply these simple steps and worry no more.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article>
+                        <div class="blog-item">
+                            <figure class="mb-0 position-relative">
+                                <img src="<?= $assets ?>/images/resources/atm.webp" alt="">
+                                <div class="text-center">
+                                    <a href="./blog/4" title="" class="theme-btn-secondary">learn More<span></span></a>
+                                </div>
+                            </figure>
+                            <div class="blog-desc mx-3 position-relative">
+                                <div class="blog-txt bg-white">
+                                    <h3 class="fs-22 mt-2"><a href="./blog/4" title="">How to block your stolen ATM card quickly</a></h3>
+                                    <p class="mb-0">People loose stuff everyday, loosing your ATM card is enough; do not loose the money in your account too.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article>
+                        <div class="blog-item">
+                            <figure class="mb-0 position-relative">
+                                <img src="<?= $assets ?>/images/resources/mpos.webp" alt="">
+                                <div class="text-center">
+                                    <a href="./blog/5" title="" class="theme-btn-secondary">learn More<span></span></a>
+                                </div>
+                            </figure>
+                            <div class="blog-desc mx-3 position-relative">
+                                <div class="blog-txt bg-white">
+                                    <h3 class="fs-22 mt-2"><a href="./blog/5" title="">How To Become Opay Agent And Get Opay Pos Easily</a></h3>
+                                    <p class="mb-0">Getting an OPAY POS machine made easy, see how you can benefit.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article>
+                        <div class="blog-item">
+                            <figure class="mb-0 position-relative">
+                                <img src="<?= $assets ?>/images/resources/trad-pos.webp" alt="">
+                                <div class="text-center">
+                                    <a href="./blog/6" title="WHAT IS POS AND POS BUSINESS" class="theme-btn-secondary">learn More<span></span></a>
+                                </div>
+                            </figure>
+                            <div class="blog-desc mx-3 position-relative">
+                                <div class="blog-txt bg-white">
+                                    <h3 class="fs-22 mt-2"><a href="./blog/6" title="WHAT IS POS AND POS BUSINESS">WHAT IS POS AND POS BUSINESS</a></h3>
+                                    <p class="mb-0">See what opportunities the POS business model holds for you.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </article>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
 
-
-        <main>
-            <div class="sec-space">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6 col-sm-12">
-                            <article>
-                                <div class="blog-item">
-                                    <figure class="mb-0 position-relative">
-                                        <img src="<?= $assets ?>/images/resources/news1.jpg" alt="">
-                                        <div class="text-center">
-                                            <a href="blog-detail.html" title="" class="theme-btn-secondary">learn More<span></span></a>
-                                        </div>
-                                    </figure>
-                                    <div class="blog-desc mx-3 position-relative">
-                                        <div class="blog-txt bg-white">
-                                            <a href="blog-detail.html" title="" class="blog-date fs-16">20 July 2021</a>
-                                            <h3 class="fs-22 mt-2"><a href="blog-detail.html" title="">Fast-food chain, go behind the scenes</a></h3>
-                                            <p class="mb-0">Lorem ipsum dolor sit amet dieu ilisicing elit. Ea ratione opius dlil ilm or maion.</p>
-                                        </div>
-                                        <div class="blog-meta d-flex flex-row">
-                                            <a class="text-white fs-15" href="javascript:void(0)" title=""><i class="flaticon-comment"></i>No Comments</a>
-                                            <a class="text-white fs-15 ml-auto" href="javascript:void(0)" title=""><i class="flaticon-heart"></i>22 Likes</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12">
-                            <article>
-                                <div class="blog-item">
-                                    <figure class="mb-0 position-relative">
-                                        <img src="<?= $assets ?>/images/resources/news2.jpg" alt="">
-                                        <div class="text-center">
-                                            <a href="./blog/1" title="" class="theme-btn-secondary">learn More<span></span></a>
-                                        </div>
-                                    </figure>
-                                    <div class="blog-desc mx-3 position-relative">
-                                        <div class="blog-txt bg-white">
-                                            <a href="javascript:void(0)" title="" class="blog-date fs-16">20 July 2021</a>
-                                            <h3 class="fs-22 mt-2"><a href="blog-detail.html" title="">Food & nutrition facts on a range</a></h3>
-                                            <p class="mb-0">Lorem ipsum dolor sit amet dieu ilisicing elit. Ea ratione opius dlil ilm or maion.</p>
-                                        </div>
-                                        <div class="blog-meta d-flex flex-row">
-                                            <a class="text-white fs-15" href="javascript:void(0)" title=""><i class="flaticon-comment"></i>No Comments</a>
-                                            <a class="text-white fs-15 ml-auto" href="javascript:void(0)" title=""><i class="flaticon-heart"></i>22 Likes</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12">
-                            <article>
-                                <div class="blog-item">
-                                    <figure class="mb-0 position-relative">
-                                        <img src="<?= $assets ?>/images/resources/news3.jpg" alt="">
-                                        <div class="text-center">
-                                            <a href="blog-detail.html" title="" class="theme-btn-secondary">learn More<span></span></a>
-                                        </div>
-                                    </figure>
-                                    <div class="blog-desc mx-3 position-relative">
-                                        <div class="blog-txt bg-white">
-                                            <a href="javascript:void(0)" title="" class="blog-date fs-16">20 July 2021</a>
-                                            <h3 class="fs-22 mt-2"><a href="blog-detail.html" title="">Healthy lifestyle, diet plans</a></h3>
-                                            <p class="mb-0">Lorem ipsum dolor sit amet dieu ilisicing elit. Ea ratione opius dlil ilm or maion.</p>
-                                        </div>
-                                        <div class="blog-meta d-flex flex-row">
-                                            <a class="text-white fs-15" href="javascript:void(0)" title=""><i class="flaticon-comment"></i>No Comments</a>
-                                            <a class="text-white fs-15 ml-auto" href="javascript:void(0)" title=""><i class="flaticon-heart"></i>22 Likes</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                    <div class="row pt-5">
-                        <div class="col-lg-4 col-md-6 col-sm-12">
-                            <article>
-                                <div class="blog-item">
-                                    <figure class="mb-0 position-relative">
-                                        <img src="<?= $assets ?>/images/resources/news4.jpg" alt="">
-                                        <div class="text-center">
-                                            <a href="blog-detail.html" title="" class="theme-btn-secondary">learn More<span></span></a>
-                                        </div>
-                                    </figure>
-                                    <div class="blog-desc mx-3 position-relative">
-                                        <div class="blog-txt bg-white">
-                                            <a href="javascript:void(0)" title="" class="blog-date fs-16">20 July 2021</a>
-                                            <h3 class="fs-22 mt-2"><a href="blog-detail.html" title="">Fast-food chain, go behind the scenes</a></h3>
-                                            <p class="mb-0">Lorem ipsum dolor sit amet dieu ilisicing elit. Ea ratione opius dlil ilm or maion.</p>
-                                        </div>
-                                        <div class="blog-meta d-flex flex-row">
-                                            <a class="text-white fs-15" href="javascript:void(0)" title=""><i class="flaticon-comment"></i>No Comments</a>
-                                            <a class="text-white fs-15 ml-auto" href="javascript:void(0)" title=""><i class="flaticon-heart"></i>22 Likes</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12">
-                            <article>
-                                <div class="blog-item">
-                                    <figure class="mb-0 position-relative">
-                                        <img src="<?= $assets ?>/images/resources/news5.jpg" alt="">
-                                        <div class="text-center">
-                                            <a href="blog-detail.html" title="" class="theme-btn-secondary">learn More<span></span></a>
-                                        </div>
-                                    </figure>
-                                    <div class="blog-desc mx-3 position-relative">
-                                        <div class="blog-txt bg-white">
-                                            <a href="javascript:void(0)" title="" class="blog-date fs-16">20 July 2021</a>
-                                            <h3 class="fs-22 mt-2"><a href="blog-detail.html" title="">Food & nutrition facts on a range</a></h3>
-                                            <p class="mb-0">Lorem ipsum dolor sit amet dieu ilisicing elit. Ea ratione opius dlil ilm or maion.</p>
-                                        </div>
-                                        <div class="blog-meta d-flex flex-row">
-                                            <a class="text-white fs-15" href="javascript:void(0)" title=""><i class="flaticon-comment"></i>No Comments</a>
-                                            <a class="text-white fs-15 ml-auto" href="javascript:void(0)" title=""><i class="flaticon-heart"></i>22 Likes</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12">
-                            <article>
-                                <div class="blog-item">
-                                    <figure class="mb-0 position-relative">
-                                        <img src="<?= $assets ?>/images/resources/news6.jpg" alt="">
-                                        <div class="text-center">
-                                            <a href="blog-detail.html" title="" class="theme-btn-secondary">learn More<span></span></a>
-                                        </div>
-                                    </figure>
-                                    <div class="blog-desc mx-3 position-relative">
-                                        <div class="blog-txt bg-white">
-                                            <a href="javascript:void(0)" title="" class="blog-date fs-16">20 July 2021</a>
-                                            <h3 class="fs-22 mt-2"><a href="blog-detail.html" title="">Healthy lifestyle, diet plans</a></h3>
-                                            <p class="mb-0">Lorem ipsum dolor sit amet dieu ilisicing elit. Ea ratione opius dlil ilm or maion.</p>
-                                        </div>
-                                        <div class="blog-meta d-flex flex-row">
-                                            <a class="text-white fs-15" href="javascript:void(0)" title=""><i class="flaticon-comment"></i>No Comments</a>
-                                            <a class="text-white fs-15 ml-auto" href="javascript:void(0)" title=""><i class="flaticon-heart"></i>22 Likes</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </main>
+</main>

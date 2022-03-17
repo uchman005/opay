@@ -127,13 +127,13 @@
                         </figure>
                         <div class="recipe-info position-relative">
                             <h2 class="fs-22"><a href="./blog/1">Android POS</a></h2>
-                            <span class="fs-14 text-theme">By Gino D'Acampo</span>
-                            <a class="fs-14 font-weight-bold text-uppercase" href="./blog/1" title="">Main Course<i class="fa fa-angle-right"></i></a>
+                            <span class="fs-14 text-theme">Distributed by Diamond concepts pay and games</span>
+                            <a class="fs-14 font-weight-bold text-uppercase" href="#" title="">Features<i class="fa fa-angle-right"></i></a>
                         </div>
                         <ul class="recipe-cokng-info p-0 list-unstyled">
-                            <li class="fs-16 text-gray">Preparation time: <strong>30 mins</strong></li>
-                            <li class="fs-16 text-gray">Cooking time: <strong>10 to 30 mins</strong></li>
-                            <li class="fs-16 text-gray">Serves: <strong>4 Persons</strong></li>
+                            <li class="fs-16 text-gray"><strong></strong></li>
+                            <li class="fs-16 text-gray"><strong></strong></li>
+                            <li class="fs-16 text-gray"><strong></strong></li>
                         </ul>
                     </div>
                     <div class="recipe-carousel-item">
@@ -142,13 +142,13 @@
                         </figure>
                         <div class="recipe-info position-relative">
                             <h2 class="fs-22"><a href="./blog/1">Dotpay POS</a></h2>
-                            <span class="fs-14 text-theme">By Addison</span>
-                            <a class="fs-14 font-weight-bold text-uppercase" href="./blog/1" title="">Main Course<i class="fa fa-angle-right"></i></a>
+                            <span class="fs-14 text-theme">Distributed by Diamond concepts pay and games</span>
+                            <a class="fs-14 font-weight-bold text-uppercase" href="#" title="">Features<i class="fa fa-angle-right"></i></a>
                         </div>
                         <ul class="recipe-cokng-info p-0 list-unstyled">
-                            <li class="fs-16 text-gray">Preparation time: <strong>30 mins</strong></li>
-                            <li class="fs-16 text-gray">Cooking time: <strong>10 to 30 mins</strong></li>
-                            <li class="fs-16 text-gray">Serves: <strong>4 Persons</strong></li>
+                            <li class="fs-16 text-gray"><strong></strong></li>
+                            <li class="fs-16 text-gray"><strong></strong></li>
+                            <li class="fs-16 text-gray"><strong></strong></li>
                         </ul>
                     </div>
                     <div class="recipe-carousel-item">
@@ -157,13 +157,13 @@
                         </figure>
                         <div class="recipe-info position-relative">
                             <h2 class="fs-22"><a href="./blog/1">mPOS machine</a></h2>
-                            <span class="fs-14 text-theme">By Gino D'Acampo</span>
-                            <a class="fs-14 font-weight-bold text-uppercase" href="./blog/1" title="">Main Course<i class="fa fa-angle-right"></i></a>
+                            <span class="fs-14 text-theme">Distributed by Diamond concepts pay and games</span>
+                            <a class="fs-14 font-weight-bold text-uppercase" href="#" title="">Features<i class="fa fa-angle-right"></i></a>
                         </div>
                         <ul class="recipe-cokng-info p-0 list-unstyled">
-                            <li class="fs-16 text-gray">Preparation time: <strong>30 mins</strong></li>
-                            <li class="fs-16 text-gray">Cooking time: <strong>10 to 30 mins</strong></li>
-                            <li class="fs-16 text-gray">Serves: <strong>4 Persons</strong></li>
+                            <li class="fs-16 text-gray"><strong></strong></li>
+                            <li class="fs-16 text-gray"><strong></strong></li>
+                            <li class="fs-16 text-gray"><strong></strong></li>
                         </ul>
                     </div>
                     <div class="recipe-carousel-item">
@@ -172,13 +172,13 @@
                         </figure>
                         <div class="recipe-info position-relative">
                             <h2 class="fs-22"><a href="./blog/1">Traditional POS</a></h2>
-                            <span class="fs-14 text-theme">By Charles</span>
-                            <a class="fs-14 font-weight-bold text-uppercase" href="./blog/1" title="">Main Course<i class="fa fa-angle-right"></i></a>
+                            <span class="fs-14 text-theme">Distributed by Diamond concepts pay and games</span>
+                            <a class="fs-14 font-weight-bold text-uppercase" href="#" title="">Features<i class="fa fa-angle-right"></i></a>
                         </div>
                         <ul class="recipe-cokng-info p-0 list-unstyled">
-                            <li class="fs-16 text-gray">Preparation time: <strong>30 mins</strong></li>
-                            <li class="fs-16 text-gray">Cooking time: <strong>10 to 30 mins</strong></li>
-                            <li class="fs-16 text-gray">Serves: <strong>4 Persons</strong></li>
+                            <li class="fs-16 text-gray"><strong></strong></li>
+                            <li class="fs-16 text-gray"><strong></strong></li>
+                            <li class="fs-16 text-gray"><strong></strong></li>
                         </ul>
                     </div>
                 </div>
